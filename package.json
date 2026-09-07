@@ -1,0 +1,29 @@
+{
+  "name": "octen-search-agent",
+  "version": "1.0.0",
+  "description": "Companion code for the tutorial: How to Add Live Web Search to an AI Agent",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node agent.mjs",
+    "verify-key": "node scripts/verify-key.mjs",
+    "demo": "node scripts/demo-offline.mjs",
+    "test": "node --test"
+  },
+  "keywords": [
+    "octen",
+    "web-search-api",
+    "langchain",
+    "ai-agent",
+    "tool-calling"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@langchain/core": "^1.2.9",
+    "@langchain/openai": "^1.5.10",
+    "langchain": "^1.5.10",
+    "zod": "^4.5.4"
+  }
+}
